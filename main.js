@@ -1,6 +1,4 @@
-// made html
-//made css
-// java script
+// java script file
 // 1. make click event
 // 2. make win probablities array
 // 3. make two empty arrays for pushing the vlaues of clicks from playerOne and playerTwo.
@@ -51,7 +49,7 @@ $(document).ready(function() {
   // check if its player one or player to (by using mod operator).
   // push value in the respective empty player arrays. - push command
   // called function () "findWinner in the if Statment and sort it in ascending order for comparision"
-  //
+  
 
   var elementPressed = function() {
 
