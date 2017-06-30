@@ -9,26 +9,27 @@ This is a classic Tic Tac Toe game made in my spare time.
 
 ### __Features__
 
-The game is played on a grid that has 3 squares by 3 squares.
-The choice is between player one i.e.. "X" and second player "O".
-Players take turns putting their marks in empty squares.
-The first player to get 3 of her marks in a row
-(up, down, across, or diagonally) is the winner.
-
+The game is played on a 3x3 grid.
+The players play with the traditional 'X' and 'O'.
+Players take turns putting their marks in empty squares on the grid.
+The first player to get 3 of their marks in a row (vertical/horizontal/diagonal) wins.
 
 ### __Approach__
 
-The game is structured keeping in mind the analogy , Html(Bones) and css(skin) and JavaScript(brain) :
+The game is structured using the analogy - 
+-- HTML(Bones) 
+-- CSS(Skin)  
+-- JavaScript(Brain) 
 
-Steps for making the brain and connecting it to bones and skin :
+Steps for to make JavaScript connect to HTML and CSS: 
 
 1. make click event
-2. make win sequence array
-3. make two empty arrays for pushing the values of clicks from playerOne and playerTwo.
+2. make all winning sequence arrays
+3. make two empty arrays for pushing the values of clicks - one for playerOne and one for playerTwo.
 4. make function for winning
 5. Function to find the winner.
 6. Function for the elementPressed in the table. Following were included in the function:
-    1. check if its player one or player two (by using mod operator).
+    1. check if its player one or player two.
     2. push value in the respective empty player arrays. - push command.
     3. called function () "findWinner in the if statement and sort it in ascending order by using sort() method for comparison"
 7. Function for resetting the board & new game. the main difference between the two is when new game is clicked it resets games won counter.
@@ -36,8 +37,7 @@ Steps for making the brain and connecting it to bones and skin :
 
 ### __Helpful Resources__
 
-* http://api.jquery.com/jquery.each/
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 * http://blog.idojo.co/the-best-alternative-for-javascript-alert/
+* http://api.jquery.com/jquery.each/
 
-Thanks for stopping by, and I hope you enjoy the game!
