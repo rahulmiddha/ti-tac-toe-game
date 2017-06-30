@@ -1,8 +1,8 @@
----Tic Tac Toe
+### __Tic Tac Toe__
 
 This is a classic Tic Tac Toe game made in my spare time. 
 
----Libraries
+### __Libraries__
 
 * jQuery
 * sweetalert
