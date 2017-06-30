@@ -1,8 +1,8 @@
-# __Tic Tac Toe__
+---Tic Tac Toe
 
-This is a Tic Tac Toe game that I made for my Project Zero, as part of my Web Development Immersive 16 with General Assembly.
+This is a classic Tic Tac Toe game made in my spare time. 
 
-### __Libraries__
+---Libraries
 
 * jQuery
 * sweetalert
@@ -15,11 +15,6 @@ Players take turns putting their marks in empty squares.
 The first player to get 3 of her marks in a row
 (up, down, across, or diagonally) is the winner.
 
-### __How to view__
-
-Play it [here](https://arpanbhalla.github.io/Tic-Tac-Toe/)
-
-[Fork](https://github.com/Arpanbhalla/Tic-Tac-Toe)
 
 ### __Approach__
 
